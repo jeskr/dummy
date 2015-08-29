@@ -39,7 +39,7 @@ class PlayersMenu
 			idc = -1;
 			colorText[] = {1, 1, 1, 1};
 			colorBackground[] = {0,0,0,0};
-			text = "#(argb,8,8,3)color(0.546,0.59,0.363,0.4)";
+			text = "#(argb,8,8,3)color(0.45,0.005,0,1)";
 
 			x = 0.1875 * safezoneW + safezoneX;
 			y = 0.15 * safezoneH + safezoneY;
@@ -182,7 +182,7 @@ class PlayersMenu
 			h = 0.04 * safezoneH;
 		};
 
-		class SlayButton: w_RscButton
+/*		class SlayButton: w_RscButton
 		{
 			idc = -1;
 			text = "Slay";
@@ -191,7 +191,7 @@ class PlayersMenu
 			y = 0.748 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;
 			h = 0.04 * safezoneH;
-		};
+		};*/
 
 		class UnlockTeamSwitchButton: w_RscButton
 		{
